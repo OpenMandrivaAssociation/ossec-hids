@@ -3,7 +3,7 @@
 
 Name:        ossec-hids
 Version:     1.4
-Release:     %mkrel 1
+Release:     %mkrel 3
 Summary:     Host-based Intrusion Detection System
 License:     GPLv2+
 Group:       Monitoring

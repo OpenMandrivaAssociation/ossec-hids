@@ -1,0 +1,5 @@
+sources:
+  "asl_rules.xml:"	767c486f2b57c24957c02dc99ff5b05e140a23b9
+  "authpsa_rules.xml:"	2b7b220a17eedb397608dbae616f5e73f0e806f4
+  "ossec-hids-1.4.tar.gz:"	80e6fc46ff592e369bc9f81707e753285e09f01f
+  "ossec-hids.init:"	3604bd11a2c0557d95a04398fed0a79447997a14

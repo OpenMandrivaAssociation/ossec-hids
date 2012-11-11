@@ -1,0 +1,14 @@
+--- ossec-hids-0.8-6/src/addagent/Makefile.orig	2006-07-14 14:56:01.000000000 +0200
++++ ossec-hids-0.8-6/src/addagent/Makefile	2006-07-14 14:57:50.000000000 +0200
+@@ -11,8 +11,9 @@
+ 
+ handler:
+ 		$(CC) $(CFLAGS) *.c $(OBJS) -o manage_agents
++		$(CC) $(CFLAGS) -DCLIENT *.c $(OBJS) -o manage_client
+ clean:
+-		$(CLEAN) manage_agents
++		$(CLEAN) manage_agents manage_client
+ build:
+ 		${BUILD} 
+-		cp -pr manage_agents ${PT}../bin
++		cp -pr manage_agents manage_client ${PT}../bin

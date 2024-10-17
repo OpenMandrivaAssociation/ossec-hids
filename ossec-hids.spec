@@ -7,7 +7,7 @@ Release:     %mkrel 5
 Summary:     Host-based Intrusion Detection System
 License:     GPLv2+
 Group:       Monitoring
-URL:         http://www.ossec.net/
+URL:         https://www.ossec.net/
 Source0:     http://www.ossec.net/files/ossec-hids-%{version}.tar.gz
 Source2:     %{name}.init
 Source3:     asl_rules.xml

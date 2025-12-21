@@ -24,6 +24,7 @@ Requires(pre):  rpm-helper
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
 Requires(postun): rpm-helper
+BuildRequires:	make
 BuildRequires: apache-devel
 BuildRequires: openssl-devel
 BuildRoot:   %{_tmppath}/%{name}-%{version}-%{release}-root
